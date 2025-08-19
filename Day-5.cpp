@@ -30,7 +30,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-    
+
     vector<int> leaders = findLeaders(arr, n);
 
     cout << "Leaders: ";
@@ -38,6 +38,6 @@ int main() {
         cout << leaders[i] << " ";
     }
     cout << endl;
-
+    
     return 0;
 }
